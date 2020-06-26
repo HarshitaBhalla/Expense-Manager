@@ -7,8 +7,7 @@
 }
 
 body {
-  background: var(--mainWhite);
-  color: var(--mainDark);
+ background-color : cornsilk;
 }
 .budget-feedback,
 .expense-feedback {
@@ -16,12 +15,12 @@ body {
 }
 
 .budget-form {
-  border: 0.15rem solid var(--mainGreen);
+  
   padding: 1rem;
   border-radius: 0.25rem;
 }
 .expense-form {
-  border: 0.15rem solid var(--mainRed);
+  
   padding: 1rem;
   border-radius: 0.25rem;
 }
@@ -129,4 +128,12 @@ body {
 }
 .expense-item {
   height: 2rem;
+}
+.expense-list
+{
+  margin-left: 300px;
+}
+
+#up{
+  margin-left: 130px;
 }
